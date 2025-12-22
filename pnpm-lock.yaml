@@ -44,6 +44,9 @@ dependencies:
   rxjs:
     specifier: ^7.8.1
     version: registry.npmmirror.com/rxjs@7.8.1
+  swagger-ui-express:
+    specifier: ^5.0.1
+    version: registry.npmmirror.com/swagger-ui-express@5.0.1(express@5.0.1)
   typeorm:
     specifier: ^0.3.28
     version: registry.npmmirror.com/typeorm@0.3.28(mysql2@3.12.0)(ts-node@10.9.2)
@@ -7216,6 +7219,19 @@ packages:
     version: 5.20.1
     dependencies:
       '@scarf/scarf': registry.npmmirror.com/@scarf/scarf@1.4.0
+    dev: false
+
+  registry.npmmirror.com/swagger-ui-express@5.0.1(express@5.0.1):
+    resolution: {integrity: sha512-SrNU3RiBGTLLmFU8GIJdOdanJTl4TOmT27tt3bWWHppqYmAZ6IDuEuBvMU6nZq0zLEe6b/1rACXCgLZqO6ZfrA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/swagger-ui-express/-/swagger-ui-express-5.0.1.tgz}
+    id: registry.npmmirror.com/swagger-ui-express/5.0.1
+    name: swagger-ui-express
+    version: 5.0.1
+    engines: {node: '>= v0.10.32'}
+    peerDependencies:
+      express: '>=4.0.0 || >=5.0.0-beta'
+    dependencies:
+      express: registry.npmmirror.com/express@5.0.1
+      swagger-ui-dist: registry.npmmirror.com/swagger-ui-dist@5.20.1
     dev: false
 
   registry.npmmirror.com/symbol-observable@4.0.0:

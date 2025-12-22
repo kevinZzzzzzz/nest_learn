@@ -25,6 +25,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
         password: configService.get('DB_PASSWORD'), // 密码
         database: configService.get('DB_NAME'), //数据库名
         driver: require('mysql2'),
+        connectorPackage: 'mysql2',  // 明确指定使用 mysql2 驱动
         timezone: '+08:00', //服务器上配置的时区
         synchronize: true, //根据实体自动创建数据库表， 生产环境建议关闭
       }),
