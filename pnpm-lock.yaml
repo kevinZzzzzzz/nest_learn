@@ -29,6 +29,9 @@ dependencies:
   '@nestjs/typeorm':
     specifier: ^11.0.0
     version: registry.npmmirror.com/@nestjs/typeorm@11.0.0(@nestjs/common@11.0.1)(@nestjs/core@11.0.1)(reflect-metadata@0.2.2)(rxjs@7.8.1)(typeorm@0.3.28)
+  cross-env:
+    specifier: ^10.1.0
+    version: registry.npmmirror.com/cross-env@10.1.0
   mysql:
     specifier: ^2.18.1
     version: registry.npmmirror.com/mysql@2.18.1
@@ -665,6 +668,12 @@ packages:
       tslib: registry.npmmirror.com/tslib@2.8.1
     dev: true
     optional: true
+
+  registry.npmmirror.com/@epic-web/invariant@1.0.0:
+    resolution: {integrity: sha512-lrTPqgvfFQtR/eY/qkIzp98OGdNJu0m5ji3q/nJI8v3SXkRKEnWiOxMmbvcSoAIzv/cGiuvRy57k4suKQSAdwA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@epic-web/invariant/-/invariant-1.0.0.tgz}
+    name: '@epic-web/invariant'
+    version: 1.0.0
+    dev: false
 
   registry.npmmirror.com/@eslint-community/eslint-utils@4.9.0(eslint@9.18.0):
     resolution: {integrity: sha512-ayVFHdtZ+hsq1t2Dy24wCmGXGe4q9Gu3smhLYALJrr473ZH27MsnSL+LKUlimp4BWJqMDMLmPpx/Q9R3OAlL4g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@eslint-community/eslint-utils/-/eslint-utils-4.9.0.tgz}
@@ -3591,6 +3600,17 @@ packages:
     resolution: {integrity: sha512-dcKFX3jn0MpIaXjisoRvexIJVEKzaq7z2rZKxf+MSr9TkdmHmsU4m2lcLojrj/FHl8mk5VxMmYA+ftRkP/3oKQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/create-require/-/create-require-1.1.1.tgz}
     name: create-require
     version: 1.1.1
+
+  registry.npmmirror.com/cross-env@10.1.0:
+    resolution: {integrity: sha512-GsYosgnACZTADcmEyJctkJIoqAhHjttw7RsFrVoJNXbsWWqaq6Ym+7kZjq6mS45O0jij6vtiReppKQEtqWy6Dw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cross-env/-/cross-env-10.1.0.tgz}
+    name: cross-env
+    version: 10.1.0
+    engines: {node: '>=20'}
+    hasBin: true
+    dependencies:
+      '@epic-web/invariant': registry.npmmirror.com/@epic-web/invariant@1.0.0
+      cross-spawn: registry.npmmirror.com/cross-spawn@7.0.6
+    dev: false
 
   registry.npmmirror.com/cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/cross-spawn/-/cross-spawn-7.0.6.tgz}
